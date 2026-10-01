@@ -11,13 +11,11 @@ export default function App() {
   const [selectedCollege, setSelectedCollege] = useState(null);
   const [userCutoff, setUserCutoff] = useState(0);
 
-  // Step 1 Completed -> Move to Step 2
   const handleRegistrationComplete = (data) => {
     setStudentData(data);
     setStep("eligibility");
   };
 
-  // Step 2 Action -> Select a college card and move to Step 3
   const handleCollegeSelect = (college, cutoff) => {
     setSelectedCollege(college);
     setUserCutoff(cutoff);
