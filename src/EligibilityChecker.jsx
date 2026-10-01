@@ -20,6 +20,10 @@ export default function EligibilityChecker({
       ...prev,
       [name]: value === "" ? "" : Number(value),
     }));
+    setErrorMsg("");
+    setUserCutoff(null);
+    setEligibleColleges([]);
+    setHasCalculated(false);
   };
 
   const handleCheckEligibility = (e) => {
@@ -33,8 +37,15 @@ export default function EligibilityChecker({
       return;
     }
 
-    if (maths < 35 || physics < 35 || chemistry < 35) {
-      setErrorMsg("Minimum passing mark of 35 is required in each subject.");
+    const subjectMarks = [maths, physics, chemistry];
+
+    if (subjectMarks.some((mark) => mark < 45)) {
+      setErrorMsg("Minimum mark of 45 is required in each subject.");
+      return;
+    }
+
+    if (subjectMarks.some((mark) => mark > 100)) {
+      setErrorMsg("Marks cannot exceed 100 in any subject.");
       return;
     }
 
@@ -72,7 +83,7 @@ export default function EligibilityChecker({
           </div>
         )}
 
-        <form onSubmit={handleCheckEligibility}>
+        <form noValidate onSubmit={handleCheckEligibility}>
           <div className="marks-input-row">
             <div className="form-group">
               <label htmlFor="maths">Maths (/100)</label>
@@ -80,7 +91,7 @@ export default function EligibilityChecker({
                 type="number"
                 id="maths"
                 name="maths"
-                min="0"
+                min="45"
                 max="100"
                 placeholder="0"
                 value={marks.maths}
@@ -95,7 +106,7 @@ export default function EligibilityChecker({
                 type="number"
                 id="physics"
                 name="physics"
-                min="0"
+                min="45"
                 max="100"
                 placeholder="0"
                 value={marks.physics}
@@ -110,7 +121,7 @@ export default function EligibilityChecker({
                 type="number"
                 id="chemistry"
                 name="chemistry"
-                min="0"
+                min="45"
                 max="100"
                 placeholder="0"
                 value={marks.chemistry}
