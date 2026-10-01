@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+.registration-layout {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.88fr) minmax(440px, 1.12fr);
+    width: min(100%, 1020px);
+    min-height: 590px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid rgba(203, 213, 225, 0.3);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 28px 70px rgba(2, 8, 23, 0.34);
+}
+
+.registration-visual {
+    position: relative;
+    display: flex;
+    min-height: 590px;
+    align-items: flex-end;
+    overflow: hidden;
+    background: #0e7490;
+    color: #f8fafc;
+}
+
+.registration-visual::after {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(8, 47, 73, 0.05) 25%, rgba(8, 47, 73, 0.88) 100%);
+    content: "";
+}
+
+.registration-visual-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: registration-image-arrive 800ms ease both;
+}
+
+@keyframes registration-image-arrive {
+    from {
+        opacity: 0.65;
+        transform: scale(1.045);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.registration-art-caption {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 32px;
+}
+
+.registration-art-caption>span,
+.registration-eyebrow {
+    color: #0e7490;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.registration-art-caption>span {
+    color: #a5f3fc;
+}
+
+.registration-art-caption h2 {
+    max-width: 340px;
+    margin: 14px 0 32px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.15rem;
+    font-weight: 400;
+    line-height: 1.12;
+}
+
+.registration-art-caption p {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.registration-art-caption small {
+    color: #bae6fd;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.auth-card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 44px clamp(28px, 5vw, 60px);
+    color: #0f172a;
+}
+
+.registration-heading {
+    margin-bottom: 28px;
+}
+
+.portal-heading {
+    margin: 10px 0 6px;
+    color: #0f172a;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.portal-subheading {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.92rem;
+}
+
+.registration-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 16px;
+}
+
+.auth-card .form-group {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    gap: 7px;
+    margin: 0;
+}
+
+.auth-card .form-group label {
+    color: #334155;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.auth-card input,
+.auth-card select {
+    width: 100%;
+    min-height: 46px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    outline: none;
+    background: #f8fafc;
+    padding: 10px 12px;
+    color: #0f172a;
+    font: inherit;
+    font-size: 0.92rem;
+    transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.auth-card input::placeholder {
+    color: #94a3b8;
+}
+
+.auth-card input:focus,
+.auth-card select:focus {
+    border-color: #0891b2;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.14);
+}
+
+.auth-card .btn {
+    min-height: 48px;
+    border: 0;
+    border-radius: 5px;
+    padding: 11px 18px;
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.auth-card .btn-primary {
+    background: #0e7490;
+    color: #fff;
+}
+
+.auth-card .btn-primary:hover {
+    transform: translateY(-2px);
+    background: #0c657d;
+    box-shadow: 0 8px 18px rgba(14, 116, 144, 0.2);
+}
+
+.auth-card .btn:active {
+    transform: translateY(0);
+}
+
+.auth-card .full-width,
+.auth-card .error-banner {
+    grid-column: 1 / -1;
+}
+
+.auth-card .full-width {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.auth-card .error-banner {
+    margin-bottom: 18px;
+    border: 1px solid #fecaca;
+    border-radius: 5px;
+    background: #fef2f2;
+    padding: 11px 13px;
+    color: #b91c1c;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 760px) {
+    .registration-layout {
+        grid-template-columns: 1fr;
+        width: min(100%, 560px);
+        min-height: 0;
+    }
+
+    .registration-visual {
+        min-height: 230px;
+    }
+
+    .registration-art-caption {
+        padding: 24px 28px;
+    }
+
+    .registration-art-caption h2 {
+        margin: 9px 0 16px;
+        font-size: 1.8rem;
+    }
+
+    .auth-card {
+        padding: 32px 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .registration-layout {
+        border-radius: 6px;
+    }
+
+    .registration-visual {
+        min-height: 180px;
+    }
+
+    .registration-art-caption {
+        padding: 20px;
+    }
+
+    .registration-art-caption h2 {
+        margin: 8px 0 10px;
+        font-size: 1.5rem;
+    }
+
+    .auth-card {
+        padding: 28px 20px;
+    }
+
+    .registration-heading {
+        margin-bottom: 22px;
+    }
+
+    .portal-heading {
+        font-size: 1.75rem;
+    }
+
+    .registration-form {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}

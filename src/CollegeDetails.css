@@ -1,0 +1,171 @@
+.details-fullpage {
+    width: 100%;
+    max-width: 1000px;
+    background: #1e293b;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #334155;
+    color: #f8fafc;
+}
+
+.back-floating-btn {
+    margin: 16px 20px;
+}
+
+.banner-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.hero-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: banner-reveal 700ms ease both;
+}
+
+@keyframes banner-reveal {
+    from {
+        opacity: 0.65;
+        transform: scale(1.035);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.banner-text-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(15, 23, 42, 0.95), transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+}
+
+.type-badge-large {
+    align-self: flex-start;
+    background: #0284c7;
+    color: #ffffff;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.hero-name {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.hero-city {
+    margin: 4px 0 0 0;
+    color: #cbd5e1;
+}
+
+.details-body {
+    padding: 24px;
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.metric-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.m-label {
+    font-size: 0.8rem;
+    color: #94a3b8;
+}
+
+.m-value {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.metric-box.highlighted .m-value {
+    color: #34d399;
+}
+
+.courses-section h3 {
+    margin: 0 0 14px 0;
+}
+
+.courses-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.course-chip {
+    background: #334155;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    animation: chip-arrive 360ms ease both;
+}
+
+.course-chip:nth-child(2) {
+    animation-delay: 50ms;
+}
+
+.course-chip:nth-child(3) {
+    animation-delay: 100ms;
+}
+
+@keyframes chip-arrive {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.apply-action-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+}
+
+.apply-action-box h4 {
+    margin: 0 0 4px 0;
+}
+
+.apply-action-box p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.btn-apply {
+    padding: 12px 24px;
+}
+
+@media (max-width: 600px) {
+    .apply-action-box {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+    }
+}

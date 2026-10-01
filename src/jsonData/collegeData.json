@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "name": "Sri Venkateswara Institute of Technology",
+    "shortName": "SVIT",
+    "location": "Salem",
+    "type": "Private",
+    "rating": 4.6,
+    "fees": 125000,
+    "cutoff": 92,
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Technology",
+      "Artificial Intelligence"
+    ],
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Kongu Engineering College",
+    "shortName": "KEC",
+    "location": "Erode",
+    "type": "Private",
+    "rating": 4.7,
+    "fees": 110000,
+    "cutoff": 88,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Mechanical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Government College of Engineering",
+    "shortName": "GCE",
+    "location": "Salem",
+    "type": "Government",
+    "rating": 4.5,
+    "fees": 55000,
+    "cutoff": 85,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Civil Engineering",
+      "Mechanical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 4,
+    "name": "PSG College of Technology",
+    "shortName": "PSG Tech",
+    "location": "Coimbatore",
+    "type": "Private",
+    "rating": 4.8,
+    "fees": 135000,
+    "cutoff": 98,
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Technology",
+      "Robotics & Automation"
+    ],
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Coimbatore Institute of Technology",
+    "shortName": "CIT",
+    "location": "Coimbatore",
+    "type": "Government-Aided",
+    "rating": 4.6,
+    "fees": 75000,
+    "cutoff": 94,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electrical & Electronics",
+      "Chemical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 6,
+    "name": "College of Engineering, Guindy",
+    "shortName": "CEG",
+    "location": "Chennai",
+    "type": "Government",
+    "rating": 4.9,
+    "fees": 45000,
+    "cutoff": 99,
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Technology",
+      "Biomedical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Thiagarajar College of Engineering",
+    "shortName": "TCE",
+    "location": "Madurai",
+    "type": "Government-Aided",
+    "rating": 4.7,
+    "fees": 80000,
+    "cutoff": 93,
+    "courses": [
+      "Computer Science & Engineering",
+      "Mechatronics",
+      "Civil Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Bannari Amman Institute of Technology",
+    "shortName": "BIT",
+    "location": "Sathyamangalam",
+    "type": "Private",
+    "rating": 4.5,
+    "fees": 120000,
+    "cutoff": 87,
+    "courses": [
+      "Information Technology",
+      "Artificial Intelligence & Data Science",
+      "Biotechnology"
+    ],
+    "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Kumaraguru College of Technology",
+    "shortName": "KCT",
+    "location": "Coimbatore",
+    "type": "Private",
+    "rating": 4.6,
+    "fees": 130000,
+    "cutoff": 91,
+    "courses": [
+      "Computer Science & Engineering",
+      "Aeronautical Engineering",
+      "Fashion Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1576495199011-eb94736d05d6?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Sona College of Technology",
+    "shortName": "SONA",
+    "location": "Salem",
+    "type": "Private",
+    "rating": 4.4,
+    "fees": 115000,
+    "cutoff": 84,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Mechatronics"
+    ],
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Mepco Schlenk Engineering College",
+    "shortName": "MEPCO",
+    "location": "Sivakasi",
+    "type": "Private",
+    "rating": 4.5,
+    "fees": 105000,
+    "cutoff": 86,
+    "courses": [
+      "Computer Science & Engineering",
+      "Civil Engineering",
+      "Bio-Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Sri Krishna College of Engineering and Technology",
+    "shortName": "SKCET",
+    "location": "Coimbatore",
+    "type": "Private",
+    "rating": 4.6,
+    "fees": 125000,
+    "cutoff": 89,
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Technology",
+      "Cyber Security"
+    ],
+    "image": "https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Madras Institute of Technology",
+    "shortName": "MIT",
+    "location": "Chennai",
+    "type": "Government",
+    "rating": 4.8,
+    "fees": 50000,
+    "cutoff": 97,
+    "courses": [
+      "Aeronautical Engineering",
+      "Automobile Engineering",
+      "Computer Science & Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1568792923760-d70635a89fa3?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Government College of Technology",
+    "shortName": "GCT",
+    "location": "Coimbatore",
+    "type": "Government",
+    "rating": 4.7,
+    "fees": 48000,
+    "cutoff": 95,
+    "courses": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Computer Science & Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 15,
+    "name": "National Engineering College",
+    "shortName": "NEC",
+    "location": "Kovilpatti",
+    "type": "Private",
+    "rating": 4.3,
+    "fees": 95000,
+    "cutoff": 82,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Instrumentation",
+      "Mechanical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 16,
+    "name": "SSN College of Engineering",
+    "shortName": "SSN",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.8,
+    "fees": 150000,
+    "cutoff": 96,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electrical & Electronics",
+      "Chemical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute",
+    "shortName": "Vel Tech",
+    "location": "Chennai",
+    "type": "Deemed",
+    "rating": 4.2,
+    "fees": 140000,
+    "cutoff": 80,
+    "courses": [
+      "Computer Science & Engineering",
+      "Aeronautical Engineering",
+      "Data Analytics"
+    ],
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 18,
+    "name": "SRM Institute of Science and Technology",
+    "shortName": "SRM",
+    "location": "Kattankulathur",
+    "type": "Deemed",
+    "rating": 4.6,
+    "fees": 250000,
+    "cutoff": 86,
+    "courses": [
+      "Computer Science & Engineering",
+      "Cloud Computing",
+      "Biomedical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Vellore Institute of Technology",
+    "shortName": "VIT",
+    "location": "Vellore",
+    "type": "Deemed",
+    "rating": 4.8,
+    "fees": 280000,
+    "cutoff": 94,
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Security",
+      "Software Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 20,
+    "name": "SASTRA Deemed University",
+    "shortName": "SASTRA",
+    "location": "Thanjavur",
+    "type": "Deemed",
+    "rating": 4.7,
+    "fees": 160000,
+    "cutoff": 92,
+    "courses": [
+      "Computer Science & Engineering",
+      "Mechanical Engineering",
+      "Bioengineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 21,
+    "name": "KSR College of Technology",
+    "shortName": "KSRCT",
+    "location": "Tiruchengode",
+    "type": "Private",
+    "rating": 4.2,
+    "fees": 105000,
+    "cutoff": 81,
+    "courses": [
+      "Information Technology",
+      "Mechanical Engineering",
+      "Electrical & Electronics"
+    ],
+    "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Kaveri Engineering College",
+    "shortName": "KEC-M",
+    "location": "Mecheri",
+    "type": "Private",
+    "rating": 4.1,
+    "fees": 85000,
+    "cutoff": 76,
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Technology",
+      "Civil Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Muthayammal Engineering College",
+    "shortName": "MEC",
+    "location": "Rasipuram",
+    "type": "Private",
+    "rating": 4.2,
+    "fees": 95000,
+    "cutoff": 79,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Artificial Intelligence"
+    ],
+    "image": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Mahendra Engineering College",
+    "shortName": "MEC-M",
+    "location": "Mallasamudram",
+    "type": "Private",
+    "rating": 4.1,
+    "fees": 90000,
+    "cutoff": 78,
+    "courses": [
+      "Mechanical Engineering",
+      "Computer Science & Engineering",
+      "Aeronautical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Vivekanandha College of Engineering for Women",
+    "shortName": "VCEW",
+    "location": "Tiruchengode",
+    "type": "Private",
+    "rating": 4.4,
+    "fees": 100000,
+    "cutoff": 83,
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Technology",
+      "Biotechnology"
+    ],
+    "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Alagappa Chettiar Government College of Engineering and Technology",
+    "shortName": "ACGCET",
+    "location": "Karaikudi",
+    "type": "Government",
+    "rating": 4.4,
+    "fees": 52000,
+    "cutoff": 86,
+    "courses": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical & Electronics"
+    ],
+    "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 27,
+    "name": "Government College of Engineering",
+    "shortName": "GCE-B",
+    "location": "Bargur",
+    "type": "Government",
+    "rating": 4.3,
+    "fees": 50000,
+    "cutoff": 83,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Electrical & Electronics"
+    ],
+    "image": "https://images.unsplash.com/photo-1576495199011-eb94736d05d6?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 28,
+    "name": "Government College of Engineering",
+    "shortName": "GCE-T",
+    "location": "Tirunelveli",
+    "type": "Government",
+    "rating": 4.4,
+    "fees": 51000,
+    "cutoff": 84,
+    "courses": [
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "Mechanical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Thanthai Periyar Government Institute of Technology",
+    "shortName": "TPGIT",
+    "location": "Vellore",
+    "type": "Government",
+    "rating": 4.3,
+    "fees": 49000,
+    "cutoff": 82,
+    "courses": [
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Electronics & Communication"
+    ],
+    "image": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Sri Sivasubramaniya Nadar College of Engineering",
+    "shortName": "SSNCE",
+    "location": "Kalavakkam",
+    "type": "Private",
+    "rating": 4.8,
+    "fees": 155000,
+    "cutoff": 95,
+    "courses": [
+      "Computer Science & Engineering",
+      "Chemical Engineering",
+      "Biomedical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 31,
+    "name": "St. Joseph's College of Engineering",
+    "shortName": "SJCE",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.5,
+    "fees": 125000,
+    "cutoff": 87,
+    "courses": [
+      "Information Technology",
+      "Computer Science & Engineering",
+      "Biotechnology"
+    ],
+    "image": "https://images.unsplash.com/photo-1568792923760-d70635a89fa3?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 32,
+    "name": "Rajalakshmi Engineering College",
+    "shortName": "REC",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.5,
+    "fees": 130000,
+    "cutoff": 89,
+    "courses": [
+      "Computer Science & Engineering",
+      "Aeronautical Engineering",
+      "Artificial Intelligence"
+    ],
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 33,
+    "name": "Sri Sai Ram Engineering College",
+    "shortName": "SAIRAM",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.4,
+    "fees": 120000,
+    "cutoff": 86,
+    "courses": [
+      "Computer Science & Engineering",
+      "Instrumentation & Control",
+      "Information Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 34,
+    "name": "Easwari Engineering College",
+    "shortName": "EEC",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.4,
+    "fees": 125000,
+    "cutoff": 88,
+    "courses": [
+      "Computer Science & Engineering",
+      "Robotics & Automation",
+      "Information Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 35,
+    "name": "Panimalar Engineering College",
+    "shortName": "PEC",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.3,
+    "fees": 115000,
+    "cutoff": 84,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Mechanical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 36,
+    "name": "Karpagam College of Engineering",
+    "shortName": "KCE",
+    "location": "Coimbatore",
+    "type": "Private",
+    "rating": 4.3,
+    "fees": 110000,
+    "cutoff": 82,
+    "courses": [
+      "Information Technology",
+      "Computer Science & Engineering",
+      "Telecommunication"
+    ],
+    "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 37,
+    "name": "Hindusthan College of Engineering and Technology",
+    "shortName": "HICET",
+    "location": "Coimbatore",
+    "type": "Private",
+    "rating": 4.2,
+    "fees": 105000,
+    "cutoff": 80,
+    "courses": [
+      "Aeronautical Engineering",
+      "Computer Science & Engineering",
+      "Mechatronics"
+    ],
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 38,
+    "name": "Dr. Mahalingam College of Engineering and Technology",
+    "shortName": "MCET",
+    "location": "Pollachi",
+    "type": "Private",
+    "rating": 4.4,
+    "fees": 115000,
+    "cutoff": 85,
+    "courses": [
+      "Computer Science & Engineering",
+      "Automobile Engineering",
+      "Civil Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 39,
+    "name": "Sri Ramakrishna Engineering College",
+    "shortName": "SREC",
+    "location": "Coimbatore",
+    "type": "Private",
+    "rating": 4.5,
+    "fees": 120000,
+    "cutoff": 87,
+    "courses": [
+      "Computer Science & Engineering",
+      "Biomedical Engineering",
+      "Information Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 40,
+    "name": "SNS College of Technology",
+    "shortName": "SNSCT",
+    "location": "Coimbatore",
+    "type": "Private",
+    "rating": 4.2,
+    "fees": 100000,
+    "cutoff": 80,
+    "courses": [
+      "Computer Science & Engineering",
+      "Aerospace Engineering",
+      "Information Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 41,
+    "name": "Velammal Engineering College",
+    "shortName": "VEC",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.4,
+    "fees": 120000,
+    "cutoff": 85,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Mechanical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 42,
+    "name": "Meenakshi Sundararajan Engineering College",
+    "shortName": "MSEC",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.3,
+    "fees": 110000,
+    "cutoff": 83,
+    "courses": [
+      "Computer Science & Engineering",
+      "Information Technology",
+      "Civil Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 43,
+    "name": "RMK Engineering College",
+    "shortName": "RMK",
+    "location": "Thiruvallur",
+    "type": "Private",
+    "rating": 4.5,
+    "fees": 125000,
+    "cutoff": 88,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Instrumentation",
+      "Information Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 44,
+    "name": "RMD Engineering College",
+    "shortName": "RMD",
+    "location": "Thiruvallur",
+    "type": "Private",
+    "rating": 4.3,
+    "fees": 115000,
+    "cutoff": 84,
+    "courses": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Information Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 45,
+    "name": "K.L.N. College of Engineering",
+    "shortName": "KLNCE",
+    "location": "Madurai",
+    "type": "Private",
+    "rating": 4.2,
+    "fees": 95000,
+    "cutoff": 80,
+    "courses": [
+      "Computer Science & Engineering",
+      "Automobile Engineering",
+      "Electrical & Electronics"
+    ],
+    "image": "https://images.unsplash.com/photo-1576495199011-eb94736d05d6?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 46,
+    "name": "Kamaraj College of Engineering and Technology",
+    "shortName": "KCET",
+    "location": "Virudhunagar",
+    "type": "Private",
+    "rating": 4.2,
+    "fees": 95000,
+    "cutoff": 81,
+    "courses": [
+      "Computer Science & Engineering",
+      "Biotechnology",
+      "Information Technology"
+    ],
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 47,
+    "name": "PSNA College of Engineering and Technology",
+    "shortName": "PSNA",
+    "location": "Dindigul",
+    "type": "Private",
+    "rating": 4.3,
+    "fees": 105000,
+    "cutoff": 82,
+    "courses": [
+      "Computer Science & Engineering",
+      "Biomedical Engineering",
+      "Civil Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1525921429624-479b6a26d84d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 48,
+    "name": "Adhiyamaan College of Engineering",
+    "shortName": "ACE",
+    "location": "Hosur",
+    "type": "Private",
+    "rating": 4.2,
+    "fees": 100000,
+    "cutoff": 80,
+    "courses": [
+      "Computer Science & Engineering",
+      "Chemical Engineering",
+      "Biotechnology"
+    ],
+    "image": "https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 49,
+    "name": "Francis Xavier Engineering College",
+    "shortName": "FXEC",
+    "location": "Tirunelveli",
+    "type": "Private",
+    "rating": 4.3,
+    "fees": 95000,
+    "cutoff": 79,
+    "courses": [
+      "Computer Science & Engineering",
+      "Artificial Intelligence & Data Science",
+      "Mechanical Engineering"
+    ],
+    "image": "https://images.unsplash.com/photo-1568792923760-d70635a89fa3?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 50,
+    "name": "Saveetha Engineering College",
+    "shortName": "SEC",
+    "location": "Chennai",
+    "type": "Private",
+    "rating": 4.4,
+    "fees": 130000,
+    "cutoff": 86,
+    "courses": [
+      "Computer Science & Engineering",
+      "Medical Electronics",
+      "Artificial Intelligence & Machine Learning"
+    ],
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"
+  }
+]
